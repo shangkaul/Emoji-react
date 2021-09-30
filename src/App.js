@@ -13,7 +13,8 @@ export default function App() {
   // var shoppingList = ["Milk", "Wheat", "Flour", "Jowar"];
   var [user_input, set_user_input] = useState("");
   var head_txt = "Emoji Finder";
-  var user = prompt("Hey, what's your name?");
+
+  var user = "User"; //prompt("Hey, what's your name?");
 
   function inputChangeHandler(event) {
     console.log(event.target.value);
